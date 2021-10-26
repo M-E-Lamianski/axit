@@ -1,0 +1,171 @@
+/*Reset CSS*/
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+/*Base*/
+.wrapper{
+    margin: 0 auto;
+    width: 1400px;    
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto; 
+    width: 1120px;
+}
+
+/*Header*/
+.header{
+    padding-top: 100px;
+    height: 250px;
+}
+
+.title{
+    margin: 0 auto 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.line{
+    margin: 0 auto 30px;
+    border: none;
+    width: 64px;
+    height: 2px;
+    background: #E72424;
+}
+
+.subtitle{
+    margin: 0 auto 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/*Main*/
+.main{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 auto 30px;
+    height: 345px;
+    width: 1120px;
+}
+
+/*Card*/
+.card{
+    width: 350px;
+    height: 225px;
+    padding-top: 50px;    
+}
+
+.card-img-lamp{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    background: url(../assets/lamp.png) no-repeat center;
+    border: 1px #E72424 solid;
+    border-radius: 50%;
+}
+
+.card-img-keyboard{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    background: url(../assets/keyboard.png) no-repeat center;
+    border: 1px #E72424 solid;
+    border-radius: 50%;
+}
+
+.card-img-lightning{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    background: url(../assets/lightning.png) no-repeat center;
+    border: 1px #E72424 solid;
+    border-radius: 50%;
+}
+
+.card-title{
+    margin: 0 auto 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.card-subtitle{
+    margin: 0 auto 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+/*Section*/
+.city{
+    width: 1400px;
+    height: 325px;
+    background: url(../assets/city.png) rgba(0, 0, 0, 0.6) no-repeat center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+section .title{
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+
+section .line{
+    background: #FFFFFF;
+}
+
+section .subtitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.download{
+    width: 135px;
+    height: 42px;
+    margin: 0 auto 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+/*Footer*/
+.footer{
+    padding-top: 20px;
+    height: 101px;
+    background: #000000;
+}
+
+.year{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.networks{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 317px;
+    height: 23px;
+    margin-bottom: 15px;
+    background: url(../assets/networks.png) no-repeat center;
+}
+
+a{
+    width: 30px;
+}
